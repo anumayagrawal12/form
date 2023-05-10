@@ -1,0 +1,71 @@
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  /* align-self: center; */
+  gap: 70px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+}
+#subjects {
+  margin-top: 15px;
+  width: 70%;
+  font-size: 1.2rem;
+}
+.query {
+  max-width: 450px;
+  font-size: 1.5rem;
+  font-weight: 1rem;
+  padding: 10px;
+}
+.loginimg {
+  margin-top: 4%;
+  max-width: 450px;
+}
+.inputg {
+  max-width: 280px;
+}
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 5px;
+  border-bottom: 2px solid grey;
+  /* border: 1px solid gray; */
+}
+.submit-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin-top: 4%;
+  margin-left: 22%;
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: rgb(41, 137, 172);
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.submit-btn:hover {
+  color: rgb(41, 137, 172);
+  background-color: white;
+  border-color: rgb(41, 137, 172);
+}
+
+@media screen and (max-width: 800px) {
+  div > .first {
+    flex-direction: column;
+    align-items: center;
+  }
+}
